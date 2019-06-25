@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <script src="action.js" charset="utf-8" type="text/javascript"></script>
+    <title>موعدي | الصفحة الرئيسية</title>
+    
+    <style>
+     @font-face{
+    font-family: myFont;
+    src:url('ge-ss-med.ttf');
+}
+body{
+    font-family: myFont;
+}
+
+    </style>
+    
+</head>
+<body>
+    <!--Start header-->
+    <header >
+        <div class="navbar" >
+           <a href="#"> <img src="images/logo-1.png" width="230px"  height="90px"></a>
+            <div class="right-menu">
+                <ul>
+                 <!-- <a href="#"><li> 
+                        <i class="fas fa-home" ></i>
+                       الرئيسية</li></a>
+                 -->
+                    <a href="#"><li><img src="images/Capture1.PNG" class="ul-img">الرئيسيه</li></a>
+                   <a href="#"><li><img src="images/Capture2.PNG" class="ul-img">  المستشفيات</li></a>
+                    <a href="#"><li><img src="images/Capture2.PNG" class="ul-img"> المستوصفات</li></a>
+                    <a href="#"><li><img src="images/Capture3.PNG" class="ul-img">   العيادات الخاصه</li></a>
+                    <a href="#"><li><img src="images/Capture3.PNG" class="ul-img"> الاطباء</li></a>
+                    <a href="#"><li><img src="images/Capture4.PNG" class="ul-img">الحجز</li></a>
+                 </ul>
+                </div>
+<!--a hover-->
+                <div class="left-menu">
+                        <ul>
+                            <li><a href="#"><button  class="btn">تسجيل الدخول</button></a></li>    
+                            <li><a href="#" ><button class="btn">مقدم الخدمه الطبيه</button></a></li>  
+                            <li><a href="#"><button class="btn">EN</button></a></li>  
+                            <li><a href="#"><img src="images/instagram.png"></a></li>
+                            <li><a href="#"><img src="images/twitter.png"></a></li>
+                            <li><a href="#"><img src="images/facebook.png"></a></li>
+    
+                             </ul>
+    
+                     </div>
+            
+                 
+                    </div>
+          
+    </header>
+    <!--End header-->
+
+<div class="login">
+    <hr style="margin-top: 260px ;color: #f7f3ec;">
+
+    <div class="log">
+        <h3>تسجيل الدخول</h3>
+        <form action="sucess.html" onsubmit="checksubmit(event)">
+          <label style=" max-width: 100%;font-weight: 500;float: right;">البريد الالكتروني</label><br><br>
+          <div class="in-1" >
+              
+                <input type="email" required style="border: 1px solid #167178;direction: ltr ;width:527px;height: 40px;" onblur="validateEmail()" id="dp1"> 
+                
+                <img src="images/Capture9.PNG" style="position: absolute;">
+          </div>
+          <span id="dd1" style="color:red"></span>
+
+
+          <br>
+          <label style=" max-width: 100%;font-weight: 500;float: right;">كلمه المرور</label><br><br>
+          <div class="in-1" >
+          <input type="password" required style="border: 1px solid #167178;direction: ltr ;width:527px;height: 40px;" onblur="validatePassword()" id="dp2">
+  
+          <img src="images/Capture10.PNG" style="position: absolute;">
+          
+          </div>
+          <span id="dd2" style="color:red"></span>
+          <br><br>
+          <input type="submit" value="تسجيل الدخول" style="background-color:#337ab7;width:580px;height: 45px; border-radius: 5px;
+          border: 1px solid transparent;color: white;cursor: pointer;margin-left: 46px;" >
+            
+            
+
+            </form>
+            <br>
+            <span style="float:right;"><a href="#" style="color: #5a84b7;text-decoration: none">اضافه مستخدم جديد</a></span>
+            <span style="float:left;margin-left: 50px"><a href="#" style="color: #5a84b7;text-decoration: none">نسيت كلمه المرور؟</a></span>
+
+    </div>
+      
+    </div>
+
+
+     <!--Start 7 part-->
+     <div class="seven-part">
+        <div class="seven-part-div">
+         <h2>مـــوعـــدي</h2>
+              <ul>
+                  <li><a href="#">من نحن</a></li>
+                  <li><a href="#">فريق موعدي</a></li>
+                  <li><a href="#">شركائنا</a></li>
+                  <li><a href="#">أخبار موعدي</a></li>
+                  <li><a href="#">الشروط والأحكام</a></li>
+                  <li><a href="#">اتفاقية الخصوصية</a></li>
+                  <li><a href="#">لماذا تستخدم موعدي</a></li>
+                  <li><a href="#">لماذا تنضم إلى موعدي</a></li>
+                  <li><a href="#">قائمة الأسعار</a></li>
+                  <li><a href="#">اتصل بنا</a></li>
+                 <li><a href="#">وظائف</a></li>
+                  </ul>
+            </div>
+            
+            <div class="seven-part-div">
+                 <h2>التخصصات</h2>
+                 <ul>
+                     <li><a href="#">عيادة الجلدية</a></li>
+                     <li><a href="#">عيادة الأسنان</a></li>
+                     <li><a href="#">عيادة التجميل</a></li>
+                     </ul>
+                  </div>
+         
+          
+         <div class="seven-part-div">
+               <h2>المستشفيات</h2>
+                 <ul>
+                     <li><a href="#">عيادات الهجن</a></li>
+                     <li><a href="#">د. عمار رشدي عبد الفتاح</a></li>
+                     </ul>
+                  </div>
+                
+          <div class="seven-part-left">
+            <span style="color:#167178;font-size: 21px;font-weight: bold;">انضم لقائمة المراسلات</span><br>
+            <span style="color:#8aae0f;font-size: 15px;font-weight: bold;">لتصلك آخر أخبارنا وعروضنا</span><br>
+     <input type="text"  style="background-color:#c1e2f5;border: 1px solid #167178;direction: ltr !important;width:294px;height: 39px;"><br>
+            <button class="ss" style="background-color:#8aae0f;border: solid transparent;
+               border-radius: 4px;width:80px;height: 31px; float:left;margin-top: 5px; margin-left: 5px;" >
+               <label style="color:white;font-size: 14px" >  انضم لنا </label>
+            </button>
+     
+             </div>
+
+  </div> 
+ <!-- End 7 part -->
+
+ <!-- Start footer part -->
+     <div class="footer">
+          <div class="footer-ul">
+              <ul>
+                  <li><a href="#">الرئيسية</a></li>
+                  <li>|</li>
+                  <li><a href="#">المستشفيات</a></li>
+                  <li>|</li>
+                  <li><a href="#">الأطباء</a></li>
+                  <li>|</li>
+                  <li><a href="#">مقدم الخدمة الطبية</a></li>
+                  <li>|</li>
+                  <li><a href="#">عن موعدي</a></li>
+                  <li>|</li>
+                  <li><a href="#">وظائف</a></li>
+                  <li>|</li>
+                  <li><a href="#">اتصل بنا</a></li>
+
+                  </ul>
+              </div>
+
+            <div class="footer-img">
+                 <img src="images/googleplay.png">
+                 <img src="images/appstore.png">
+                
+                </div>  
+
+      </div>
+      <footer style="background-color: #c1d5e0;text-align: center;height: 50px;">
+          <label style="color:#777777;font-size: 18px">MOADII © 2018 , All Rights Reserved</label>
+         </footer>
+ <!-- End footer part -->
+
+</body>
+</html>
